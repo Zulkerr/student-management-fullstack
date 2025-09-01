@@ -68,10 +68,9 @@ student-api-project/
   "course": "Informatik",
   "created_at": "2025-09-01T10:30:00Z"
 }
+```
 
----
-
- Voraussetzungen
+##Voraussetzungen
 
 Python 3.8+ installiert
 Node.js 14+ installiert
