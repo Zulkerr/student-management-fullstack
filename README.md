@@ -118,16 +118,16 @@ State Management – React Hooks für dynamische UIs
 HTTP-Methoden – GET, POST, PUT, DELETE  
 
 ## Zukünftige Erweiterungen
- [] Benutzer-Authentifizierung & Autorisierung
- [] Erweiterte Filter & Suchfunktionen
- [] Pagination für große Datenmengen
- [] Datei-Upload für Studentenfotos
- [] Export nach PDF/Excel
- [] Dashboard mit Statistiken
- [] Mobile-Optimierungen
- [] Unit- & Integrationstests
+- [] Benutzer-Authentifizierung & Autorisierung
+- [] Erweiterte Filter & Suchfunktionen
+- [] Pagination für große Datenmengen
+- [] Datei-Upload für Studentenfotos
+- [] Export nach PDF/Excel
+- [] Dashboard mit Statistiken
+- [] Mobile-Optimierungen
+- [] Unit- & Integrationstests
  
-##Beiträge  
+## Beiträge  
 Beiträge sind willkommen!  
 Bitte Pull Requests einreichen.  
 Bei größeren Änderungen zuerst ein Issue eröffnen.
