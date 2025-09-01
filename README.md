@@ -43,6 +43,8 @@ student-api-project/
 │ └── package.json # Abhängigkeiten  
 └── backend_env/ # Virtuelle Python-Umgebung  
 
+---
+
 ## 🔌 API-Endpunkte
 
 | Methode  | Endpunkt              | Beschreibung          |
@@ -53,10 +55,11 @@ student-api-project/
 | `PUT`    | `/api/students/{id}/` | Studenten aktualisieren |
 | `DELETE` | `/api/students/{id}/` | Studenten löschen |
 
+---
+
 ## 📊 Datenmodell
 
 ```javascript
-
 {
   "id": 1,
   "name": "Max Mustermann",
@@ -65,6 +68,8 @@ student-api-project/
   "course": "Informatik",
   "created_at": "2025-09-01T10:30:00Z"
 }
+
+---
 
  Voraussetzungen
 
