@@ -70,89 +70,76 @@ student-api-project/
 }
 ```
 
-##Voraussetzungen
+##⚡ Voraussetzungen
 
-Python 3.8+ installiert
-Node.js 14+ installiert
-Git installiert
+- Python 3.8+ installiert
+- Node.js 14+ installiert
+- Git installiert
 
-## Backend einrichten
-# Repository klonen
-git clone https://github.com/your-username/student-management-fullstack.git
-cd student-management-fullstack
+## Backend einrichten 
 
-# Virtuelle Umgebung erstellen
-python -m venv backend_env
-backend_env\Scripts\activate  # Windows
-# source backend_env/bin/activate  # macOS/Linux
+### Repository klonen  
+- git clone https://github.com/your-username/student-management-fullstack.git  
+- cd student-management-fullstack  
 
-# Abhängigkeiten installieren
-cd backend
-pip install django djangorestframework django-cors-headers
+### Virtuelle Umgebung erstellen  
+- python -m venv backend_env  
+- backend_env\Scripts\activate  # Windows  
+### source backend_env/bin/activate  # macOS/Linux  
 
-# Migrationen durchführen
-python manage.py makemigrations
-python manage.py migrate
+### Abhängigkeiten installieren  
+- cd backend  
+- pip install django djangorestframework django-cors-headers  
 
-# Django-Server starten
-python manage.py runserver
+### Migrationen durchführen  
+- python manage.py makemigrations  
+- python manage.py migrate  
 
-##Frontend einrichten
-# Neues Terminal öffnen
-cd frontend
+### Django-Server starten
+- python manage.py runserver
 
-# Abhängigkeiten installieren
-npm install
+## Frontend einrichten
+
+### Neues Terminal öffnen
+- cd frontend
+
+### Abhängigkeiten installieren
+- npm install
 
 # React-Entwicklungsserver starten
-npm start
+- npm start
 
 ## Wichtige Lernkonzepte
-RESTful API Design – Vorhersehbares API-Verhalten
-
-Frontend-Backend-Trennung – Entkoppelte Architektur
-
-JSON-Serialisierung – Python-Objekte ↔ JSON
-
-CORS Handling – Sichere Cross-Origin-Anfragen
-
-State Management – React Hooks für dynamische UIs
-
-HTTP-Methoden – GET, POST, PUT, DELETE
+RESTful API Design – Vorhersehbares API-Verhalten    
+Frontend-Backend-Trennung – Entkoppelte Architektur    
+JSON-Serialisierung – Python-Objekte ↔ JSON  
+CORS Handling – Sichere Cross-Origin-Anfragen  
+State Management – React Hooks für dynamische UIs  
+HTTP-Methoden – GET, POST, PUT, DELETE  
 
 ## Zukünftige Erweiterungen
- Benutzer-Authentifizierung & Autorisierung
-
- Erweiterte Filter & Suchfunktionen
-
- Pagination für große Datenmengen
-
- Datei-Upload für Studentenfotos
-
- Export nach PDF/Excel
-
- Dashboard mit Statistiken
-
- Mobile-Optimierungen
-
- Unit- & Integrationstests
-
-##Beiträge
-
-Beiträge sind willkommen!
-Bitte Pull Requests einreichen.
+ [] Benutzer-Authentifizierung & Autorisierung
+ [] Erweiterte Filter & Suchfunktionen
+ [] Pagination für große Datenmengen
+ [] Datei-Upload für Studentenfotos
+ [] Export nach PDF/Excel
+ [] Dashboard mit Statistiken
+ [] Mobile-Optimierungen
+ [] Unit- & Integrationstests
+ 
+##Beiträge  
+Beiträge sind willkommen!  
+Bitte Pull Requests einreichen.  
 Bei größeren Änderungen zuerst ein Issue eröffnen.
 
-📝 Lizenz
-
+📝 Lizenz  
 Dieses Projekt ist Open Source unter der MIT-Lizenz.
 
 👨‍💻 Entwickler
 
-Zulker – Full-Stack-Entwickler
-
-Portfolio: github.com/Zulkerr
-E-Mail: nael.zulkar@gmail.com
+Zulker – Full-Stack-Entwickler  
+Portfolio: github.com/Zulkerr  
+E-Mail: nael.zulkar@gmail.com  
 
 🙏 Danksagung
 
