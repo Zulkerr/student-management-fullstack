@@ -28,20 +28,20 @@ Dieses Projekt demonstriert die Entwicklung von RESTful APIs, die Integration vo
 
 ## 🏗️ Projektarchitektur
 student-api-project/
-├── backend/ # Django REST API
-│ ├── student_api/ # Hauptprojekt
-│ ├── students/ # Studenten-App
-│ │ ├── models.py # Datenmodell
-│ │ ├── serializers.py # JSON-Serializer
-│ │ ├── views.py # API-Views
-│ │ └── urls.py # Endpunkte
-│ └── manage.py # Django-Verwaltung
-├── frontend/ # React-Anwendung
-│ ├── src/
-│ │ ├── App.js # Haupt-React-Komponente
-│ │ └── App.css # Styles
-│ └── package.json # Abhängigkeiten
-└── backend_env/ # Virtuelle Python-Umgebung
+├── backend/ # Django REST API  
+│ ├── student_api/ # Hauptprojekt  
+│ ├── students/ # Studenten-App  
+│ │ ├── models.py # Datenmodell  
+│ │ ├── serializers.py # JSON-Serializer  
+│ │ ├── views.py # API-Views  
+│ │ └── urls.py # Endpunkte  
+│ └── manage.py # Django-Verwaltung  
+├── frontend/ # React-Anwendung  
+│ ├── src/  
+│ │ ├── App.js # Haupt-React-Komponente  
+│ │ └── App.css # Styles  
+│ └── package.json # Abhängigkeiten  
+└── backend_env/ # Virtuelle Python-Umgebung  
 
 ## 🔌 API-Endpunkte
 
@@ -56,6 +56,7 @@ student-api-project/
 ## 📊 Datenmodell
 
 ```javascript
+
 {
   "id": 1,
   "name": "Max Mustermann",
@@ -65,7 +66,8 @@ student-api-project/
   "created_at": "2025-09-01T10:30:00Z"
 }
 
-## Voraussetzungen
+ Voraussetzungen
+
 Python 3.8+ installiert
 Node.js 14+ installiert
 Git installiert
